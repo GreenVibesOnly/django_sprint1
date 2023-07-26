@@ -5,11 +5,5 @@
   {{ post.location }}. {{ post.date }}
 {% endblock %}
 {% block content %}
-  <article>
-    {% include "includes/post_model.html" %}         
-    <p>
-      {{ post.text }}
-    </p>          
-  </article>
+  {% include "includes/post_model.html" %}
 {% endblock %}
- 
